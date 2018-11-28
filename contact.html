@@ -37,44 +37,39 @@
     </ul>
   </div>
 </nav>
-<!-----section music--------------------->
-<section class="section-white">
-		<div class="wrapper wrapper--narrow">
-  
-  <h1 class="heading-column heading-column--secondary">Contact</h1>
-  <form method="POST" action="#" accept-charset="UTF-8" class="js-form"><input name="_token" type="hidden" value="MObWs5FQOQ0fAzgAdQQcFud0XvovlgZm4OoGjxvY">
-				<div class="grid--no-margin"><!--
-					--><div class="grid__item medium-6">
-	 					<label for="name">Name *</label>
-						<input class="form__required" name="name" type="text" id="name">
-						<span class="form__error js-form-error"></span>
-					</div><!--
-					--><div class="grid__item medium-6">
-						<label for="email">Email Address *</label>
-						<input class="form__required" name="email" type="email" id="email">
-						<span class="form__error js-form-error"></span>
-					</div><!--
-					--><div class="grid__item medium-6">
-						<label for="phone">Phone</label>
-						<input name="phone" type="text" id="phone">
-						<span class="form__error js-form-error"></span>
-					</div><!--
-					--><div class="grid__item medium-6">
-						<label for="_to_address">Enquiry Type *</label>
-
-						<select id="_to_address" name="_to_address"><option value="scott@areonemanagement.com">Management</option><option value="sandy@codaagency.com">Bookings</option><option value="kevin@circletalentagency.com">US Bookings</option><option value="matt@alchemypr.com">Press</option></select>
-						<span class="form__error js-form-error"></span>
-					</div><!--
-					--><div class="grid__item">
-						<label for="enquiry">Enquiry</label>
-						<textarea rows="8" name="enquiry" cols="50" id="enquiry"></textarea>
-						<span class="form__error js-form-error"></span>
-					</div>
-				</div>
-
-				<button type="submit" class="btn pull-right">Submit</button>
-			</form>
-</div>
+<!-----section contact--------------------->
+<section class="container-fluid">
+<form>
+  <div class="form-row">
+    <div class="form-group col-md-6">
+      <label for="inputName4">name</label>
+      <input type="name" class="form-control" id="inputNamel4" placeholder="Name">
+    </div>
+    <div class="form-group col-md-6">
+      <label for="inputemail4">Email</label>
+      <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
+    </div>
+  <div class="form-group col-md-6">
+    <label for="inputphone4">Phone</label>
+    <input type="Phone" class="form-control" id="inputPhone4" placeholder="Phone number">
+  </div>
+  <div class="form-group col-md-6">
+      <label for="inputState">Enquiry type</label>
+      <select id="inputState" class="form-control">
+        <option selected>Choose...</option>
+        <option>Management</option>
+        <option>Booking</option>
+        <option>Colaberation</option>
+        <option>General</option>
+      </select>
+    </div>
+    <div class="form-group col-md-8">
+   <label for="exampleFormControlTextarea4">Enquiry</label>
+    <textarea class="form-control" id="exampleFormControlTextarea4" rows="6" placeholder="Enquiry"></textarea>
+  </div>
+ </div>
+  <button type="submit" class="btn btn-primary">Submit</button>
+</form>
 </section>
 <!-----footer--------------------->
 <footer class="container-fluid">

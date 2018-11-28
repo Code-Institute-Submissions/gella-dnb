@@ -7,25 +7,40 @@
     
  /*-------------------------------about-----------*/   
 
-.about-section {
-     background-color: #fffcf2;
-     text-align: center;
-     
+
+.andy img {
+    border-radius: 10%;
 }
 
+.lrabout {
+    
+  padding: 0;
+  display: flex;
+}
 
-.making-music {
-    text-align: center;
+.left-half {
+  text-align: center;    
+  background-color: #ff9e2c;
+  flex: 1;
+  padding: 1rem;
+  
+}
+
+.right-half {
+  text-align: center; 
   background-image: url('/assets/images/pattern-matrix-300-thumb.jpg');
-  background-color: #00F5FF;
+  background-color: #9bedff;
   background-blend-mode: screen;
   color:#000000;
   font-weight: bold;
+  flex: 1;
+  padding: 1rem;
 }
+
 
 /*-------------------------------Footer-----------*/
 
-footer{
+footer {
    
     background-color: #f8f9fa;
     margin: 0;
