@@ -1,29 +1,28 @@
-/*-------------------------------Footer-----------*/
+/*-------------------------------main-----------*/
  body {
-    padding-top: 50px;
+    padding-top: 55px;
   }
 
-.about {
-    width: 100%;
-    top: 0;
-    left: 0;
-    margin:0;
-}
+
     
-    
+ /*-------------------------------about-----------*/   
 
 .about-section {
      background-color: #fffcf2;
+     text-align: center;
+     
 }
 
 
 .making-music {
+    text-align: center;
   background-image: url('/assets/images/pattern-matrix-300-thumb.jpg');
   background-color: #00F5FF;
   background-blend-mode: screen;
   color:#000000;
   font-weight: bold;
 }
+/*-------------------------------Footer-----------*/
 
 footer{
    
