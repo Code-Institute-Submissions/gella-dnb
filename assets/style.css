@@ -3,7 +3,14 @@
     padding-top: 55px;
   }
 
-
+.header-img {
+    background: url("/assets/images/synth.jpg") no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    padding-bottom: 45%; 
+}
     
  /*-------------------------------about-----------*/   
 
@@ -35,6 +42,12 @@
   font-weight: bold;
   flex: 1;
   padding: 1rem;
+}
+
+.right-half2 {
+    flex: 1;
+  padding: 1rem;
+    
 }
 
 
