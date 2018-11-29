@@ -1,8 +1,19 @@
 /*-------------------------------main-----------*/
  body {
-    padding-top: 55px;
+    padding-top: 60px;
     font-family: 'Montserrat', sans-serif;
+    background-color: #343a40;
+    color: #ffffff;
   }
+
+ /*-------------------------------Nav-----------*/ 
+ 
+.navbar-brand {
+   font-family: 'Montserrat', sans-serif;
+   font-size: x-large;
+}
+    
+ /*-------------------------------Header-----------*/   
 
 .header-img {
     background: url("/assets/images/synth.jpg") no-repeat center center;
@@ -13,12 +24,7 @@
     padding-bottom: 45%; 
 }
 
-.navbar-brand {
-   font-family: 'Montserrat', sans-serif;
-   font-size: x-large;
-}
-    
- /*-------------------------------about-----------*/   
+ /*-------------------------------about-----------*/  
 
 .aboutgella {
     padding-left: 0;
@@ -46,58 +52,40 @@
     
 }
 
+/*-------------------------------Tour-----------*/
 
-.lrabout {
-    
-  padding: 0;
-  display: flex;
+.livehead {
+    color: #ffffff;
+    padding-left: 15px;
+}
+
+/*-------------------------------Contact-----------*/
+
+
+.btn-primary {
+    background-color: #000000;
+    width: 100%;
+    border-color: #000000;
+}
+
+.form-control {
+    border-color: #778899;
+    background-color: #778899;
+    color: #ffffff;
+}
+
+.form-control::-webkit-input-placeholder {
+  color: #ffffff;
+ 
+}
+
+#inputNamel4, #inputEmail4, #inputPhone4, #inputState, #exampleFormControlTextarea1  {
+    background-color: #778899;
+    color: #ffffff;
+
 }
 
 
-  
-
-
-.lrabout {
-    
-  padding: 0;
-  display: flex;
-}
-
-.left-half {
-  text-align: center;    
-  background-image: url('/assets/images/gellaprofile.jpg');
-  background-color: #a0a0a0;
-  background-blend-mode: screen;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: 100%;
-  color:#000000;
-  font-family: 'Montserrat', sans-serif;
-  font-weight: bold;
-  flex: 1;
-  padding: 1rem;
-  height: 650px;
-}
-  
-
-
-.right-half {
-  text-align: center; 
-  font-family: 'Montserrat', sans-serif;
-  background-image: url('/assets/images/pattern-matrix-300-thumb.jpg');
-  background-color: #7d7d7d;
-  background-blend-mode: screen;
-  color:#000000;
-  font-weight: bold;
-  flex: 1;
-  padding: 1rem;
-}
-
-.right-half2 {
-    flex: 1;
-  padding: 1rem;
-    
-}
 
 
 /*-------------------------------Footer-----------*/
