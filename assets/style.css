@@ -1,6 +1,7 @@
 /*-------------------------------main-----------*/
  body {
     padding-top: 55px;
+    font-family: 'Montserrat', sans-serif;
   }
 
 .header-img {
@@ -11,13 +12,50 @@
     background-size: cover;
     padding-bottom: 45%; 
 }
+
+.navbar-brand {
+   font-family: 'Montserrat', sans-serif;
+   font-size: x-large;
+}
     
  /*-------------------------------about-----------*/   
 
-
-.andy img {
-    border-radius: 10%;
+.aboutgella {
+    padding-left: 0;
+    padding-right: 0;
+    margin: 0;
+    width: 100%;
+   
 }
+
+.aboutpic {
+    height: 325px;
+    width: 100%;
+    background-image: url(/assets/images/gellafest.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+ 
+    
+}
+
+.audiostuff {
+    height: 325px;
+    width: 100%;
+    background-color: #f7b801;
+    
+}
+
+
+.lrabout {
+    
+  padding: 0;
+  display: flex;
+}
+
+
+  
+
 
 .lrabout {
     
@@ -27,16 +65,27 @@
 
 .left-half {
   text-align: center;    
-  background-color: #ff9e2c;
+  background-image: url('/assets/images/gellaprofile.jpg');
+  background-color: #a0a0a0;
+  background-blend-mode: screen;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+  color:#000000;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
   flex: 1;
   padding: 1rem;
-  
+  height: 650px;
 }
+  
+
 
 .right-half {
   text-align: center; 
+  font-family: 'Montserrat', sans-serif;
   background-image: url('/assets/images/pattern-matrix-300-thumb.jpg');
-  background-color: #9bedff;
+  background-color: #7d7d7d;
   background-blend-mode: screen;
   color:#000000;
   font-weight: bold;
@@ -55,14 +104,14 @@
 
 footer {
    
-    background-color: #f8f9fa;
+    background-color: #343a40;
     margin: 0;
     padding-top: 10px;
     text-align: left;
 }
 
 footer p{
-    color: #000000;
+    color: #ffffff;
 }
 
 .social-links {
@@ -83,6 +132,10 @@ footer p{
     -moz-transition: all 0.35s ease-in-out;
     -webkit-transition: all 0.35s ease-in-out;
     -o-transition: all 0.35s ease-in-out;
+}
+
+.general-sub {
+    color: #ffffff;
 }
 
 .social-links li a i:hover {
