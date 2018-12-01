@@ -1,19 +1,24 @@
 /*-------------------------------main-----------*/
- body {
+
+body {
     padding-top: 60px;
     font-family: 'Montserrat', sans-serif;
     background-color: #343a40;
     color: #fafafa;
-  }
-
- /*-------------------------------Nav-----------*/ 
- 
-.navbar-brand {
-   font-family: 'Montserrat', sans-serif;
-   font-size: x-large;
 }
-    
- /*-------------------------------Header-----------*/   
+
+/*-------------------------------Nav-----------*/
+
+.navbar-brand {
+    font-family: 'Montserrat', sans-serif;
+    font-size: x-large;
+}
+
+.navbar-collapse {
+    text-align: center;
+}
+
+/*-------------------------------Header-----------*/
 
 .header-img {
     background: url("/assets/images/synth.jpg") no-repeat center center;
@@ -21,17 +26,17 @@
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    padding-bottom: 45%; 
+    padding-bottom: 45%;
 }
 
- /*-------------------------------about-----------*/  
+/*-------------------------------about-----------*/
 
 .aboutgella {
     padding-left: 0;
     padding-right: 0;
     margin: 0;
     width: 100%;
-   
+
 }
 
 .aboutpic {
@@ -41,24 +46,31 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
- 
-    
+
+
 }
 
 .aboutstuff {
+    padding-top: 25px;
     height: 325px;
     width: 100%;
-    background-color: #f7b801;
+    background-color: #f75c03;
     text-align: center;
-   
+
 }
 
 .audiostuff {
+    padding-top: 25px;
     height: 325px;
     width: 100%;
-    background-color: #f7b801;
+    background-color: #f75c03;
     text-align: center;
-    
+
+}
+
+.audiolist {
+    list-style-type: none;
+    padding-left: 0px;
 }
 
 /*-------------------------------Tour-----------*/
@@ -75,11 +87,10 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    
+
 }
 
 /*-------------------------------Contact-----------*/
-
 
 .btn-primary {
     background-color: #000000;
@@ -94,11 +105,15 @@
 }
 
 .form-control::-webkit-input-placeholder {
-  color: #ffffff;
- 
+    color: #ffffff;
+
 }
 
-#inputNamel4, #inputEmail4, #inputPhone4, #inputState, #exampleFormControlTextarea1  {
+#inputNamel4,
+#inputEmail4,
+#inputPhone4,
+#inputState,
+#exampleFormControlTextarea1 {
     background-color: #778899;
     color: #ffffff;
 
@@ -110,14 +125,14 @@
 /*-------------------------------Footer-----------*/
 
 footer {
-   
+
     background-color: #343a40;
     margin: 0;
     padding-top: 10px;
     text-align: left;
 }
 
-footer p{
+footer p {
     color: #ffffff;
 }
 
@@ -150,6 +165,5 @@ footer p{
 }
 
 #footer-details {
-    margin: 20px;}
-
-
+    margin: 20px;
+}
