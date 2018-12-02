@@ -1,7 +1,7 @@
 /*-------------------------------main-----------*/
 
 body {
-    padding-top: 60px;
+    padding-top: 65px;
     font-family: 'Montserrat', sans-serif;
     background-color: #343a40;
     color: #fafafa;
@@ -15,6 +15,8 @@ body {
 }
 
 .navbar-collapse {
+    font-family: 'Shadows Into Light', cursive;
+    font-size: x-large;
     text-align: center;
 }
 
@@ -137,6 +139,8 @@ footer p {
 }
 
 .social-links {
+    text-align: right;
+    padding-top: 25px;
     padding-bottom: 15px;
 }
 
@@ -159,6 +163,13 @@ footer p {
 .general-sub {
     font-family: 'Shadows Into Light', cursive;
     color: #ffffff;
+}
+
+.general-sub2 {
+    font-family: 'Shadows Into Light', cursive;
+    text-align: right;
+    color: #ffffff;
+    
 }
 
 .social-links li a i:hover {
