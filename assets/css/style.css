@@ -21,7 +21,7 @@ body {
 /*-------------------------------Header-----------*/
 
 .header-img {
-    background: url('assets/images/synth.jpg') no-repeat center center;
+    background: url('../images/synth.jpg') no-repeat center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -42,7 +42,7 @@ body {
 .aboutpic {
     height: 325px;
     width: 100%;
-    background-image: url('assets/images/gellafest.jpg');
+    background-image: url('../images/gellafest.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -83,7 +83,7 @@ body {
 .contactpic {
     height: 325px;
     width: 100%;
-    background-image: url('assets/images/gellaDJ.jpg');
+    background-image: url('../images/gellaDJ.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -157,6 +157,7 @@ footer p {
 }
 
 .general-sub {
+    font-family: 'Shadows Into Light', cursive;
     color: #ffffff;
 }
 
@@ -166,4 +167,8 @@ footer p {
 
 #footer-details {
     margin: 20px;
+}
+
+.copyright {
+    font-size: small;
 }
