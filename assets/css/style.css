@@ -31,6 +31,21 @@ body {
     padding-bottom: 45%;
 }
 
+.carousel-caption {
+    font-family: 'Shadows Into Light', cursive;
+    text-align: right;
+    font-size: xx-large;
+    font-weight: bolder;
+    right: 0;
+    padding-right: 10px;
+    padding-bottom: 0;
+    margin-bottom: 0;
+    color: #f7b801;
+    bottom: -15px;
+    
+}
+
+
 /*-------------------------------about-----------*/
 
 .aboutgella {
@@ -169,7 +184,7 @@ footer p {
     font-family: 'Shadows Into Light', cursive;
     text-align: right;
     color: #ffffff;
-    
+
 }
 
 .social-links li a i:hover {
