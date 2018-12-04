@@ -2,7 +2,7 @@
 
 body {
     padding-top: 65px;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Shadows Into Light', cursive;
     background-color: #343a40;
     color: #fafafa;
 }
@@ -22,179 +22,174 @@ body {
 
 /*-------------------------------Header-----------*/
 
-.header-img {
-    background: url('../images/synth.jpg') no-repeat center center;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    padding-bottom: 45%;
-}
-
 .carousel-caption {
-    font-family: 'Shadows Into Light', cursive;
-    text-align: right;
+    font-family: 'Montserrat', sans-serif;
     font-size: xx-large;
-    font-weight: bolder;
-    right: 0;
-    padding-right: 10px;
-    padding-bottom: 0;
-    margin-bottom: 0;
     color: #f7b801;
-    bottom: -15px;
-    
+    right: 0%;
+    text-align: right;
+    max-width: 1000px;
+    left: auto;
+    margin-right: 20px;
 }
 
 
-/*-------------------------------about-----------*/
 
+
+
+
+
+
+
+
+
+
+
+ /*-------------------------------about-----------*/
 .aboutgella {
-    padding-left: 0;
-    padding-right: 0;
-    margin: 0;
-    width: 100%;
+        padding-left: 0;
+        padding-right: 0;
+        margin: 0;
+        width: 100%;
 
-}
+    }
 
-.aboutpic {
-    height: 325px;
-    width: 100%;
-    background-image: url('../images/gellafest.jpg');
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+    .aboutpic {
+        height: 325px;
+        width: 100%;
+        background-image: url('../images/gellafest.jpg');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
 
 
-}
+    }
 
-.aboutstuff {
-    padding-top: 25px;
-    height: 325px;
-    width: 100%;
-    background-color: #f75c03;
-    text-align: center;
+    .aboutstuff {
+        padding-top: 25px;
+        height: 325px;
+        width: 100%;
+        background-color: #f75c03;
+        text-align: center;
 
-}
+    }
 
-.audiostuff {
-    padding-top: 25px;
-    height: 325px;
-    width: 100%;
-    background-color: #f75c03;
-    text-align: center;
+    .audiostuff {
+        padding-top: 25px;
+        height: 325px;
+        width: 100%;
+        background-color: #f75c03;
+        text-align: center;
 
-}
+    }
 
-.audiolist {
-    list-style-type: none;
-    padding-left: 0px;
-}
+    .audiolist {
+        list-style-type: none;
+        padding-left: 0px;
+    }
 
-/*-------------------------------Tour-----------*/
+    /*-------------------------------Tour-----------*/
+    .livehead {
+        color: #ffffff;
+        padding-left: 15px;
+    }
 
-.livehead {
-    color: #ffffff;
-    padding-left: 15px;
-}
+    .contactpic {
+        height: 325px;
+        width: 100%;
+        background-image: url('../images/gellaDJ.jpg');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
 
-.contactpic {
-    height: 325px;
-    width: 100%;
-    background-image: url('../images/gellaDJ.jpg');
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+    }
 
-}
+    /*-------------------------------Contact-----------*/
+    .btn-primary {
+        background-color: #000000;
+        width: 100%;
+        border-color: #000000;
+    }
 
-/*-------------------------------Contact-----------*/
+    .form-control {
+        border-color: #778899;
+        background-color: #778899;
+        color: #ffffff;
+    }
 
-.btn-primary {
-    background-color: #000000;
-    width: 100%;
-    border-color: #000000;
-}
+    .form-control::-webkit-input-placeholder {
+        color: #ffffff;
 
-.form-control {
-    border-color: #778899;
-    background-color: #778899;
-    color: #ffffff;
-}
+    }
 
-.form-control::-webkit-input-placeholder {
-    color: #ffffff;
+    #inputNamel4,
+    #inputEmail4,
+    #inputPhone4,
+    #inputState,
+    #exampleFormControlTextarea1 {
+        background-color: #778899;
+        color: #ffffff;
 
-}
-
-#inputNamel4,
-#inputEmail4,
-#inputPhone4,
-#inputState,
-#exampleFormControlTextarea1 {
-    background-color: #778899;
-    color: #ffffff;
-
-}
+    }
 
 
 
 
-/*-------------------------------Footer-----------*/
+    /*-------------------------------Footer-----------*/
+    footer {
 
-footer {
+        background-color: #343a40;
+        margin: 0;
+        padding-top: 10px;
+        text-align: left;
+    }
 
-    background-color: #343a40;
-    margin: 0;
-    padding-top: 10px;
-    text-align: left;
-}
+    footer p {
+        color: #ffffff;
+    }
 
-footer p {
-    color: #ffffff;
-}
+    .social-links {
+        text-align: right;
+        padding-top: 25px;
+        padding-bottom: 15px;
+    }
 
-.social-links {
-    text-align: right;
-    padding-top: 25px;
-    padding-bottom: 15px;
-}
+    .social-links li a i {
+        width: 32px;
+        height: 32px;
+        padding: 12px 0;
+        border-radius: 50%;
+        font-size: 13px;
+        line-height: 7px;
+        text-align: center;
+        color: #fafafa;
+        background: #8f8f8f;
+        transition: all 0.35s ease-in-out;
+        -moz-transition: all 0.35s ease-in-out;
+        -webkit-transition: all 0.35s ease-in-out;
+        -o-transition: all 0.35s ease-in-out;
+    }
 
-.social-links li a i {
-    width: 32px;
-    height: 32px;
-    padding: 12px 0;
-    border-radius: 50%;
-    font-size: 13px;
-    line-height: 7px;
-    text-align: center;
-    color: #fafafa;
-    background: #8f8f8f;
-    transition: all 0.35s ease-in-out;
-    -moz-transition: all 0.35s ease-in-out;
-    -webkit-transition: all 0.35s ease-in-out;
-    -o-transition: all 0.35s ease-in-out;
-}
+    .general-sub {
+        font-family: 'Shadows Into Light', cursive;
+        color: #ffffff;
+    }
 
-.general-sub {
-    font-family: 'Shadows Into Light', cursive;
-    color: #ffffff;
-}
+    .general-sub2 {
+        font-family: 'Shadows Into Light', cursive;
+        text-align: right;
+        color: #ffffff;
 
-.general-sub2 {
-    font-family: 'Shadows Into Light', cursive;
-    text-align: right;
-    color: #ffffff;
+    }
 
-}
+    .social-links li a i:hover {
+        background: #e84610;
+    }
 
-.social-links li a i:hover {
-    background: #e84610;
-}
+    #footer-details {
+        margin: 20px;
+    }
 
-#footer-details {
-    margin: 20px;
-}
-
-.copyright {
-    font-size: small;
-}
+    .copyright {
+        font-size: small;
+    }
