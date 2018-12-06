@@ -1,8 +1,9 @@
 /*-------------------------------main-----------*/
 
 body {
-    padding-top: 65px;
+    padding-top: 75px;
     font-family: 'Montserrat', sans-serif;
+    font-size: medium;
     background-color: #343a40;
     color: #fafafa;
 }
@@ -11,12 +12,12 @@ body {
 
 .navbar-brand {
     font-family: 'Montserrat', sans-serif;
-    font-size: x-large;
+    font-size: xx-large;
 }
 
 .navbar-collapse {
     font-family: 'Montserrat', sans-serif;
-    font-size: x-large;
+    font-size: medium;
     text-align: center;
 }
 
@@ -163,11 +164,13 @@ body {
 
     .general-sub {
         font-family: 'Montserrat', sans-serif;
+        font-size: medium;
         color: #ffffff;
     }
 
     .general-sub2 {
         font-family: 'Montserrat', sans-serif;
+        font-size: medium;
         text-align: right;
         color: #ffffff;
 
@@ -183,4 +186,5 @@ body {
 
     .copyright {
         font-size: small;
+        margin-top: -50px;
     }
