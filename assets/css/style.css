@@ -2,7 +2,7 @@
 
 body {
     padding-top: 65px;
-    font-family: 'Shadows Into Light', cursive;
+    font-family: 'Montserrat', sans-serif;
     background-color: #343a40;
     color: #fafafa;
 }
@@ -15,7 +15,7 @@ body {
 }
 
 .navbar-collapse {
-    font-family: 'Shadows Into Light', cursive;
+    font-family: 'Montserrat', sans-serif;
     font-size: x-large;
     text-align: center;
 }
@@ -23,7 +23,7 @@ body {
 /*-------------------------------Header-----------*/
 
 .carousel-caption {
-    font-family: 'Montserrat', sans-serif;
+   
     font-size: xx-large;
     color: #f7b801;
     right: 0%;
@@ -32,17 +32,6 @@ body {
     left: auto;
     margin-right: 20px;
 }
-
-
-
-
-
-
-
-
-
-
-
 
 
  /*-------------------------------about-----------*/
@@ -92,6 +81,8 @@ body {
     .livehead {
         color: #ffffff;
         padding-left: 15px;
+        text-align: center;
+        padding-top: 150px;
     }
 
     .contactpic {
@@ -171,19 +162,19 @@ body {
     }
 
     .general-sub {
-        font-family: 'Shadows Into Light', cursive;
+        font-family: 'Montserrat', sans-serif;
         color: #ffffff;
     }
 
     .general-sub2 {
-        font-family: 'Shadows Into Light', cursive;
+        font-family: 'Montserrat', sans-serif;
         text-align: right;
         color: #ffffff;
 
     }
 
     .social-links li a i:hover {
-        background: #e84610;
+        background: #f75c03;
     }
 
     #footer-details {
