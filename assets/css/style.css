@@ -9,7 +9,7 @@ body {
     background-color: #343a40;
     color: #fafafa;
 
-    
+
 }
 
 /*-------------------------------Nav-----------*/
@@ -25,7 +25,7 @@ body {
     text-align: center;
 }
 
-/*-------------------------------Header-----------*/
+/*--------------------------Carousel Header-----------*/
 
 .carousel-caption {
 
@@ -40,8 +40,8 @@ body {
 
 .carousel-item.active,
 .carousel-item-next,
-.carousel-item-prev{
-display:block;
+.carousel-item-prev {
+    display: block;
 }
 
 
@@ -53,7 +53,7 @@ display:block;
     margin-right: 0;
     margin-left: 0;
     width: 100%;
-    
+
 
 }
 
@@ -92,7 +92,7 @@ display:block;
 
 .tourPic {
     padding-left: 0;
-    padding-right:0;
+    padding-right: 0;
 }
 
 .livehead {
@@ -112,11 +112,12 @@ display:block;
     height: 325px;
     width: 100%;
     background-image: url('../images/gellaDJ.jpg');
-   
+
     background-repeat: no-repeat;
     background-size: cover;
 
 }
+
 /*-------------------------------Contact-----------*/
 
 .btn-primary {
@@ -162,12 +163,16 @@ display:block;
 /*-------------------------------Footer-----------*/
 
 footer {
-    position: absolute;
+
     background-color: #343a40;
     margin: 0;
     padding-top: 10px;
     text-align: left;
+
 }
+
+
+
 
 footer p {
     color: #ffffff;
@@ -213,9 +218,7 @@ footer p {
     background: #f75c03;
 }
 
-#footer-details {
-    margin: 20px;
-}
+
 
 .copyright {
     font-size: small;
