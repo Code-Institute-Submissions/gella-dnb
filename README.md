@@ -1,4 +1,4 @@
-THE PROJECT:
+#THE PROJECT:
 
 WHAT IS IT?
 Build a front end website website for a 1960's rock band or a similar idea of your own. For this project, I have chosen to build a website for a Jungle / Drum and Bass artist named Gella. Gella is a friend of mine and has had alot of success in the last couple of years.
