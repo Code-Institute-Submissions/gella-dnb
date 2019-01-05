@@ -11,10 +11,10 @@ Photos
 Audio clips (via Soundcloud)
 Links to Facebook, soundcloud and instagram etc.
 
-PURPOSE OF WEBSITE
+PURPOSE OF WEBSITE:
 Based on the brief, the aim of the website (in both functionality and design) was produce a functional website that essentially showcasws Gellas music and live dates to current and new fans.
 
-The initial stages
+THE INITIAL STAGES:
 Intially I researched Gellas social media and spoke to him in person I also looked at other drum and bass artists websites, to help me build a picture of the audience I was targeting, as well as help me create a "story" for the purpose of the site.
 The site needs To be the equivolent of 5 pages
 sketched ideas for a simple multi-page layout to get the basic components in a clear minimal format. 
@@ -22,33 +22,32 @@ draft up rough ideas of content in wireframe program and settled on a final desi
 
 The following decisions were made to start the site:
 
-Page layout
 The basic multi page layout seemed to fit the minimal solution of for presnting the music and live dates contact form in an easy and workable fashion for the user as it followed basic conventions of a website.
 The simpleness of the design also suited it to responsive design, nothing would need to be taken out to fit on smaller devices.
 I kept with minimal design, with striking images and minimal writen content.
 
-Colours and Fonts
+COLOURS AND FONTS:
 I wanted to keep the header footer and background a monochrome darker grey and used coolors.co to match vivid contrasting colours for different sections.I used a plain white for the text and kept the same font throughout apart from one element of the footer. The simpleness and minimalness of the design seemed to match the general theme for Electronic music websites and I wanted to keep that feel.
 
 
-Navigation:
+NAVIGATION:
 I decided on fixed navigation to ensure that the nav links were always visible, making the site intuative to navigate. The footer was not fixed to allow as much content to be displayed without scrolling.
 
-Home page:
+HOME PAGE:
 
 I liked the idea of using a slideshow to introduce the website, The simpleness of the nav bar, brand logo, footer and striking images, that are also links.
 
 
-Music:
+MUSIC:
 I chose to use embed music from Gellas Soundcloud page, It offered a clean interface with images and playlists which included remixes and Gellas own music. It is also a nice link to Gellas sound cloud page to explore his music further.
 
 
-HOW IT WAS BUILT
+HOW IT WAS BUILT:
 The main framework in building the Gella site was Bootstrap V4.1.
 Icons for social media were from Font Awesome.
 Fonts were Google Fonts.
 
-Plugins:
+PLUGINS:
 
 https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" 
 https://code.jquery.com/jquery-3.3.1.slim.min.js" 
@@ -56,7 +55,7 @@ https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
 https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" 
 https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" 
 
-Resources:
+RESOURCES:
 
 https://getbootstrap.com/
 https://www.w3schools.com/
@@ -87,17 +86,19 @@ Bootstrap form and grid system
 
 Footer:
 
-Bootstrap grid system.
-Font awesome for social links and Code institute for icon borders and code
+Bootstrap grid system,
+Font awesome for social links and Code institute for icon borders and code,
 ASCII code for Copyright (thank you mentor!)
 
 Fonts throughout courtesy of Google fonts (https://fonts.googleapis.com/css?family=Montserrat|Shadows+Into+Light)
 
-HOW IT WAS TESTED
-Summary
+HOW IT WAS TESTED:
+
 I primarily tested the site as it was built through google chrome and the google chrome devTools and the device toolbar for responsviness 
 AND also tested it physically viewing it on mobile, tablet, mac and windows laptop, windows desktop, and different browsers (firefox, safari, google chrome, opera)
-What was tested
+
+The following were tested,
+
 External links (to social media, particulalry music)
 Internal links (Navbar links worked accordingly)
 Contact form for enquiries
