@@ -25,7 +25,7 @@ body {
     text-align: center;
 }
 
-/*--------------------------Carousel Header-----------*/
+/*--------------------------CarouselHeader-----------*/
 
 .carousel-caption {
 
@@ -147,17 +147,11 @@ body {
 
 }
 
-#inputNamel4,
-#inputEmail4,
-#inputPhone4,
-#inputState,
-#exampleFormControlTextarea1 {
+
+#contactFormat {
     background-color: #778899;
     color: #ffffff;
-
 }
-
-
 
 
 /*-------------------------------Footer-----------*/
@@ -217,7 +211,6 @@ footer p {
 .social-links li a i:hover {
     background: #f75c03;
 }
-
 
 
 .copyright {
