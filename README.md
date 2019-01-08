@@ -58,15 +58,15 @@ Fonts were from Google Fonts.
 
 #### Plugins:
 
-- https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" 
+- https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css 
 
-- https://code.jquery.com/jquery-3.3.1.slim.min.js" 
+- https://code.jquery.com/jquery-3.3.1.slim.min.js 
 
-- https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" 
+- https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js
 
-- https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" 
+- https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js 
 
-- https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" 
+- https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css
 
 - https://fonts.googleapis.com/css?family=Montserrat|Shadows+Into+Light
 
@@ -78,7 +78,7 @@ Fonts were from Google Fonts.
 
 - https://stackoverflow.com
 
-- slackbot Forums
+- Stack overflow Forums
 
 - https://coolors.co
 
@@ -152,7 +152,9 @@ To make the site more minimal I originally intened the navigation menu to slide 
 
 - Website deployed on Github.
 
-- Tested the final deployed version in similar way to the previous version. Found that the footer wording seemed disjointed and so removed margin on offset column to put the two blocks of text on same row.
+- Tested the final deployed version in similar way to the previous version. 
+- Found that the footer wording seemed disjointed and so removed margin on offset column to put the two blocks of text on same row.
+- The multiple selection box on the contact form is displayed in a 3d style in safari which does not match the flat style intended.
 
 
 
