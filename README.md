@@ -162,6 +162,9 @@ To make the site more minimal I originally intened the navigation menu to slide 
 
 - To put headline information from each page in brief on the home page.
 
+- More information button on Carousel, rather than using whole image as link
+
+
 # Credits
 
 ### Content

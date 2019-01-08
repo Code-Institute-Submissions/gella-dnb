@@ -38,16 +38,10 @@ body {
     margin-right: 20px;
 }
 
-.carousel-item.active,
-.carousel-item-next,
-.carousel-item-prev {
-    display: block;
-}
-
 
 /*-------------------------------about-----------*/
 
-.aboutgella {
+.aboutGella {
     padding-left: 0;
     padding-right: 0;
     margin-right: 0;
@@ -57,7 +51,7 @@ body {
 
 }
 
-.aboutpic {
+.aboutPic {
     height: 325px;
     background-image: url('../images/gellafest.jpg');
     background-position: center;
@@ -67,7 +61,7 @@ body {
 
 }
 
-.gellabio {
+.gellaBioContainer {
     padding-top: 25px;
     height: 325px;
     background-color: #f75c03;
@@ -76,7 +70,7 @@ body {
 
 }
 
-.gellaaudio {
+.gellaAudioContainer {
     padding-top: 25px;
     height: 325px;
     background-color: #f75c03;
@@ -85,7 +79,10 @@ body {
 
 }
 
-
+.aboutColour {
+    color: rgba(255,255,255,.5);
+    
+}
 
 
 /*-------------------------------Tour-----------*/
@@ -95,18 +92,13 @@ body {
     padding-right: 0;
 }
 
-.livehead {
+.tourHead {
     color: #ffffff;
     padding-left: 15px;
     text-align: center;
     padding-top: 150px;
 }
 
-.livehead2 {
-    color: #ffffff;
-    padding-left: 15px;
-    text-align: center;
-}
 
 .gellaLivePic {
     height: 325px;
@@ -116,6 +108,10 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
 
+}
+
+.tableHeadColour {
+    color: rgba(255,255,255,.5);
 }
 
 /*-------------------------------Contact-----------*/
