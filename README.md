@@ -152,7 +152,7 @@ To make the site more minimal I originally intened the navigation menu to slide 
 
 - Website deployed on Github.
 
-- Tested the final deployed version in similar way to the previous version.
+- Tested the final deployed version in similar way to the previous version. Found that the footer wording seemed disjointed and so removed margin on offset column to put the two blocks of text on same row.
 
 
 
