@@ -6,9 +6,13 @@ Build a front end website website for a 1960's rock band or a similar idea of yo
 
 Primary target audiences are Jungle / drum and bass fans and potential fans who wish to hear music by Gella, to find out about upcoming gigs and to contact Gella to enquire about performing, remixing and collaberations.
 The following assets to be showcased on the website:
-Photos
-Audio clips (via Soundcloud)
-Links to Facebook, soundcloud and instagram etc.
+Photos:
+
+- Audio clips (via Soundcloud)
+
+- Links to Facebook, soundcloud and instagram etc.
+
+- Video (Via Youtube)
 
 ## Purpose
 
@@ -172,7 +176,9 @@ To make the site more minimal I originally intened the navigation menu to slide 
 ### Content
 Gella provided information on his music workflow for the about section
 ### Media
-The photos used in this site were obtained from Gellas facebook page with his permission.
+The photos used in this site were obtained from Gellas facebook page with his permission. 
+
+Video obtained through Gellas Youtube account with his permision.
 
 Music was gained through Gellas soundcloud page with permission
 ### Acknowledgements
